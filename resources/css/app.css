@@ -1,0 +1,38 @@
+/*@import 'tailwindcss/base';*/
+/*@import 'tailwindcss/components';*/
+/*@import 'tailwindcss/utilities';*/
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+#featured_image-error{
+    position: inherit !important;
+    margin-top: 52px!important;
+    margin-right: 14px!important;
+}
+
+#images-error{
+    position: inherit !important;
+    margin-top: 52px!important;
+    margin-right: 14px!important;
+}
+
+#file2d-error{
+    position: inherit !important;
+    margin-top: 52px!important;
+    margin-right: 14px!important;
+}
+
+#file3d-error{
+    position: inherit !important;
+    margin-top: 52px!important;
+    margin-right: 14px!important;
+}
+
+#image-error{
+    position: absolute!important;
+    margin-bottom: 80px!important;
+    margin-right: 103px!important;
+}

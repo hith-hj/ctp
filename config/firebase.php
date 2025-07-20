@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'FCM_SERVER_KEY' => 'AAAAWHlSxhM:APA91bGWqvKCZ5EjLsb7nmWjGBhGsAgQ5V__63BHvYITVcxGNg7u8hrdYm-ykskm_-RBZxH9JaXm2_O4bGdXHPb_HlnHJvFF4TO_qK2eab7LOA2SeGk20D8XlSNHP3OzU0yZD4GyLuSl',
+
+];
