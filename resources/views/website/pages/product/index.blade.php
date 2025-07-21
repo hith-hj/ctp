@@ -34,7 +34,7 @@
     <!-- Shop Start -->
     <div class="container-fluid pt-5">
         <div class="row pb-3">
-            <div class="col-3 pb-1">
+            <div class="col-lg-3 col-md-12 pb-1">
                 {{-- header --}}
                 <div class="border-bottom mb-4">
                     <div class="d-flex align-items-center justify-content-between">
@@ -116,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="col-9">
+            <div class="col-lg-9 col-md-12">
                 <div class="row">
                     @forelse ($products as $product)
                         @include('website.section.product._product',[
