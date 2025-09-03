@@ -2,6 +2,10 @@
 
 Welcome to **Click To Pick**, a curated e-commerce experience where every product is handpicked for quality, reliability, and speed. This project showcases a modern, responsive shopping interface with a focus on user trust and seamless service.
 
+## Live Site
+
+Explore the platform: [https://dev.click-to-pick.com/](https://dev.click-to-pick.com/)
+
 ## 🌟 Overview
 
 Click To Pick is designed to deliver a premium online shopping experience. From product selection to delivery, every step is optimized for speed, support, and satisfaction.
