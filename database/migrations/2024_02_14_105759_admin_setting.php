@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('admin_id')->constrained()->cascadeOnDelete();
             $table->string('setting_key');
-            $table->string('setting_value');
+            $table->text('setting_value');
             $table->timestamp('created_at')->default(now());
         });
     }

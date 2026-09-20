@@ -27,7 +27,6 @@ class CreateProductTranslationsTable extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->timestamps();
-            $table->index(['name', 'description'], 'idx_product_name_description');
         });
     }
 

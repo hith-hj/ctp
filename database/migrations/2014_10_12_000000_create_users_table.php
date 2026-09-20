@@ -37,7 +37,7 @@ class CreateUsersTable extends Migration
 
             $table->rememberToken();
             $table->timestamps();
-            $table->index(['first_name', 'last_name', 'email', 'phone_number'], 'idx_full_name');
+            $table->index(['first_name', 'last_name'], 'idx_full_name');
         });
     }
 
