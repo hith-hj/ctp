@@ -15,7 +15,7 @@ class AdminSettingsSeeder extends Seeder
     public function run()
     {
         foreach ($this->settings() as $setting) {
-            DB::table('admin_setting')->insert([
+            DB::table('admin_setting')->updateOrInsert([
                 'admin_id' => 1,
                 'setting_key' => $setting['setting_key'],
                 'setting_value' => $setting['setting_value'],
@@ -85,6 +85,15 @@ class AdminSettingsSeeder extends Seeder
             [
                 'setting_key' => 'en_mission',
                 'setting_value' => 'We are a medical company offering a wide variety of professional cosmetic and orthopedic solutions for health-care professionals around the world. We are dedicated to ensuring our customers get the high quality products at competitive wholesale prices from Europe. We want to help you make the most of your medical business by providing you with the authentic, brand name dermal fillers and other products at the guaranteed lowest price. Our team strives to ensure that our products and services meet are first-rate',
+            ],
+            [
+                'setting_key' => 'en_footer',
+                'setting_value' => 'We are an all-in-one portal supplying high-quality medical injectables and supplies.
+                Our website give you the chance to browse, compare, and obtain the most popular products on the market hassle-free.'
+            ],
+            [
+                'setting_key' => 'ar_footer',
+                'setting_value' => 'نحن بوابة شاملة نوفر حقن ومستلزمات طبية عالية الجودة. موقعنا الإلكتروني يمنحك الفرصة لتصفح المنتجات الأكثر شهرة في السوق، ومقارنتها، والحصول عليها بسهولة ودون عناء.'
             ],
         ];
     }

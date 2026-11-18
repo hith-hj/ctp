@@ -10,8 +10,11 @@
                 </h1>
             </a>
             <p class="text-white">
-                We are an all-in-one portal supplying high-quality medical injectables and supplies.
-                Our website give you the chance to browse, compare, and obtain the most popular products on the market hassle-free.
+                @if(app()->getLocale() == 'ar' && getSetting('ar_footer') != null && !empty(getSetting('ar_footer')) )
+                    {{getSetting('ar_footer')}}
+                @else
+                    {{getSetting('en_footer')}}
+                @endif
             </p>
         </div>
         <div class="col-lg-6 col-md-12">
